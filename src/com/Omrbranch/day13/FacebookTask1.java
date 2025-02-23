@@ -38,7 +38,7 @@ public class FacebookTask1 {
 	WebElement down = driver.findElement(By.xpath("//li[text()='English (UK)']"));
 	
 	js.executeScript("argurments[0].scrollIntoview(true)", down);
-	
+	//webdirver
 	
 	Object object1=js.executeScript("return arguments[0].getAttribute('value')", txtPass);
 	
